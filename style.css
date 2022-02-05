@@ -14,7 +14,6 @@
 }
 
 .limit-container {
-    border: solid 1px blue;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -67,8 +66,6 @@ nav
 }
 .navigation
 {
-    border: 1px solid rgb(143, 0, 0);
-    list-style-type: none;
     display: flex;
     flex-direction: row;
     width: 30%;
@@ -87,26 +84,22 @@ a:hover
 }
 header
 {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .pont
 {
-    border: 1px solid red;
     justify-content: center;
 }
 .imagepont
 {
-    border: 1px solid red;
     border-radius: 5px;
     width: 100%;
     margin-top: 10px;
 }
 section
 {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -117,14 +110,12 @@ section
 }
 article
 {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     width: 70%;
 }
 aside
 {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,7 +136,6 @@ aside
 }
 footer
 {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -153,19 +143,16 @@ footer
 }
 .imageaside
 {
-    border: 1px solid red;
     max-width: 60%;
 }
 h1
 {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     word-wrap: nowrap;
 }
 .reseaux
 {
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -174,17 +161,14 @@ h1
 .monderniertweet
 {
     width: 32%;
-    border: 1px solid red;
 }
 .mesphotos
 {
     width: 32%;
-    border: 1px solid red;
 }
 .mesamis
 {
     width: 32%;
-    border: 1px solid red;
 }
 .mesamisprincipal
 {
