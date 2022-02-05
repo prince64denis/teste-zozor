@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.page1
+{
+    background-image: url(images/fond_jaune.png);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px red;
+
+}
+
+.limit-container {
+    border: solid 1px blue;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@font-face {
+    font-family: ballpark;
+    src: url(polices/ballpark.eot);
+    src: url(polices/ballpark.svg);
+    src: url(polices/ballpark.ttf);
+    src: url(polices/ballpark.woff);
+}
+@font-face {
+    font-family: dayrom;
+    src: url(polices/dayrom.eot);
+    src: url(polices/dayrom.svg);
+    src: url(polices/dayrom.ttf);
+    src: url(polices/dayrom.woff);
+}
+nav
+{
+    font-family: ballpark;
+    font-size: xx-large;
+}
+.logoprincipal
+{
+    display: flex;
+    flex-direction: column;
+}
+.logoetzozor
+{
+    display: flex;
+    flex-direction: row;
+}
+.positionaside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titreaside
+{
+    text-align: center;
+}
+.titrezozorlogo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.navigation
+{
+    border: 1px solid rgb(143, 0, 0);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+a
+{
+    color: black;
+    text-decoration-line: none;
+}
+a:hover
+{
+    border-bottom: 3px solid red;
+    text-decoration-color: rgb(133, 0, 0);
+}
+header
+{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pont
+{
+    border: 1px solid red;
+    justify-content: center;
+}
+.imagepont
+{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+section
+{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+article
+{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+aside
+{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(92, 92, 92);
+    text-align: justify;
+    border-radius: 5px;
+    width: 30%;
+    color: white;
+    margin: 10px;
+}
+.imageasideparent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+footer
+{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.imageaside
+{
+    border: 1px solid red;
+    max-width: 60%;
+}
+h1
+{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    word-wrap: nowrap;
+}
+.reseaux
+{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.monderniertweet
+{
+    width: 32%;
+    border: 1px solid red;
+}
+.mesphotos
+{
+    width: 32%;
+    border: 1px solid red;
+}
+.mesamis
+{
+    width: 32%;
+    border: 1px solid red;
+}
+.mesamisprincipal
+{
+    width: 100%;
+    color: red;
+    display: flex;
+    flex-direction: row;
+}
+.mesamisprincipal1
+{
+    width: 50%;
+}
+.mesamisprincipal2
+{
+    width: 50%;
+}
+.titrearticle
+{
+    display: flex;
+    flex-direction: row;
+}
+.titreico
+{
+    display: flex;
+    justify-content: center;
+}
+p
+{
+    text-align: justify;
+}
