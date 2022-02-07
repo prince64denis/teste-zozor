@@ -1,0 +1,97 @@
+@media  screen and (max-width: 1280px)
+{
+   
+    body
+    {
+        width: 100%;
+        margin: 0px;
+    }
+    .page1
+    {
+        width: 100%;
+        margin: 3px;
+    }
+    .navigation
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .pont
+    {
+        width: 100%;
+    }
+    .imagepont
+    {
+        width: 100%;
+    }
+    section
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0px;
+    }
+    .limit-container
+    {
+        width: 100%;
+    }
+    article
+    {
+        width: 100%;
+        margin: 0px;
+    }
+    .titrearticle
+    {
+        width: 100%;
+        word-wrap: break-word;
+    }
+    aside
+    {
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+    }
+    .positionaside
+    {
+        margin: 0px;
+        width: 100%;
+    }
+    .imageasideparent
+    {
+        width: 100%;
+    }
+    .imageaside
+    {
+        width: 100%;
+    }
+    .reseaux
+    {
+        width: 100%;
+        justify-content: space-around;
+    }
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    p
+    {
+        font-size: 0.9em;
+    }
+    .mesphoto, .monderniertweet, .mesamis
+    {
+        width: 100%;
+    }
+    .listphoto
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    h1, h2
+    {
+        font-size: 1em;
+        width: 100%;
+    }
+}
